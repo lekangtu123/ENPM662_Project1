@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000248] (cars) JobQueued: {'identifier': 'cars', 'dependencies': OrderedDict()}
+[0.001004] (cars) JobStarted: {'identifier': 'cars'}
+[0.014906] (cars) JobProgress: {'identifier': 'cars', 'progress': 'cmake'}
+[0.015125] (cars) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '/home/leoo/testws/src/cars', '-DCMAKE_INSTALL_PREFIX=/home/leoo/testws/src/cars/install/cars'], 'cwd': '/home/leoo/testws/src/cars/build/cars', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '1430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/testws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1332'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:51958'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1476,unix/ubuntu:/tmp/.ICE-unix/1476'), ('INVOCATION_ID', 'e6f55cc741ee439ea3f13b150884731f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f39d3558_277d_4d77_b045_c81f90679323'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/testws/src/cars/build/cars'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.099677] (-) TimerEvent: {}
+[0.116216] (cars) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.166255] (cars) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.179711] (cars) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200318] (-) TimerEvent: {}
+[0.234712] (cars) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.250540] (cars) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.250912] (cars) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.251376] (cars) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.256712] (cars) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.301651] (-) TimerEvent: {}
+[0.318816] (cars) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.334465] (cars) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.334867] (cars) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.335810] (cars) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.338124] (cars) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.341381] (cars) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.341700] (cars) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.341755] (cars) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.341801] (cars) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.341844] (cars) StderrLine: {'line': b'\n'}
+[0.341887] (cars) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.341929] (cars) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.341972] (cars) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.342015] (cars) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.342058] (cars) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.342102] (cars) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.342145] (cars) StderrLine: {'line': b'  CMakeLists.txt:31 (find_package)\n'}
+[0.342188] (cars) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.342235] (cars) StderrLine: {'line': b'\x1b[0m\n'}
+[0.359350] (cars) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")\n'}
+[0.359645] (cars) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.404673] (-) TimerEvent: {}
+[0.424830] (cars) StdoutLine: {'line': b'-- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)\n'}
+[0.453962] (cars) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.459878] (cars) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.505094] (-) TimerEvent: {}
+[0.541196] (cars) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[0.570554] (cars) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include\n'}
+[0.605545] (-) TimerEvent: {}
+[0.653082] (cars) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.683505] (cars) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)\n'}
+[0.686827] (cars) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7")\n'}
+[0.706040] (-) TimerEvent: {}
+[0.738049] (cars) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.740546] (cars) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.760871] (cars) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.761948] (cars) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.806190] (-) TimerEvent: {}
+[0.824465] (cars) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.825673] (cars) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.870780] (cars) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.870962] (cars) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.908721] (-) TimerEvent: {}
+[0.927977] (cars) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.929151] (cars) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[1.009386] (-) TimerEvent: {}
+[1.110360] (-) TimerEvent: {}
+[1.211112] (-) TimerEvent: {}
+[1.311934] (-) TimerEvent: {}
+[1.412451] (-) TimerEvent: {}
+[1.512976] (-) TimerEvent: {}
+[1.575176] (cars) StdoutLine: {'line': b'-- Found xacro: 2.0.7 (/opt/ros/galactic/share/xacro/cmake)\n'}
+[1.576907] (cars) StdoutLine: {'line': b'-- Found ros2_control: 1.6.0 (/opt/ros/galactic/share/ros2_control/cmake)\n'}
+[1.578233] (cars) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[1.619169] (-) TimerEvent: {}
+[1.648081] (cars) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.653129] (cars) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.653382] (cars) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.653482] (cars) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.658674] (cars) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.658904] (cars) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.659799] (cars) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.661440] (cars) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.662639] (cars) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.667655] (cars) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.667812] (cars) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.668928] (cars) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.670701] (cars) StdoutLine: {'line': b'-- Configuring done (1.6s)\n'}
+[1.677375] (cars) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.679129] (cars) StdoutLine: {'line': b'-- Build files have been written to: /home/leoo/testws/src/cars/build/cars\n'}
+[1.706012] (cars) CommandEnded: {'returncode': 0}
+[1.706864] (cars) JobProgress: {'identifier': 'cars', 'progress': 'build'}
+[1.709833] (cars) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '--build', '/home/leoo/testws/src/cars/build/cars', '--', '-j2', '-l2'], 'cwd': '/home/leoo/testws/src/cars/build/cars', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '1430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/testws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1332'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:51958'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1476,unix/ubuntu:/tmp/.ICE-unix/1476'), ('INVOCATION_ID', 'e6f55cc741ee439ea3f13b150884731f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f39d3558_277d_4d77_b045_c81f90679323'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/testws/src/cars/build/cars'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[1.719786] (-) TimerEvent: {}
+[1.805139] (cars) CommandEnded: {'returncode': 0}
+[1.832528] (-) TimerEvent: {}
+[1.881177] (cars) JobProgress: {'identifier': 'cars', 'progress': 'install'}
+[1.935267] (-) TimerEvent: {}
+[1.953942] (cars) Command: {'cmd': ['/home/leoo/.local/bin/cmake', '--install', '/home/leoo/testws/src/cars/build/cars'], 'cwd': '/home/leoo/testws/src/cars/build/cars', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'leoo'), ('SSH_AGENT_PID', '1430'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/leoo'), ('OLDPWD', '/home/leoo/testws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1332'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'leoo'), ('JOURNAL_STREAM', '8:51958'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leoo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/home/leoo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1476,unix/ubuntu:/tmp/.ICE-unix/1476'), ('INVOCATION_ID', 'e6f55cc741ee439ea3f13b150884731f'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f39d3558_277d_4d77_b045_c81f90679323'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.159'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leoo/testws/src/cars/build/cars'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[2.016913] (cars) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.017287] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//urdf\n'}
+[2.017632] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//urdf/cars.csv\n'}
+[2.017990] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//urdf/cars.urdf.xacro\n'}
+[2.018353] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes\n'}
+[2.019126] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/imu_link.STL\n'}
+[2.019488] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/front_left_link.STL\n'}
+[2.019905] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/front_right_link.STL\n'}
+[2.020266] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/back_shaft_link.STL\n'}
+[2.021027] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/lidar_link.STL\n'}
+[2.021412] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/front_right_wheel_link.STL\n'}
+[2.021892] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/front_left_wheel_Link.STL\n'}
+[2.022354] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/base_link.STL\n'}
+[2.022994] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch\n'}
+[2.023254] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/gazebo.launch.py\n'}
+[2.023648] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/spawn_robot_ros2.launch.py\n'}
+[2.023860] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/display_gai.py\n'}
+[2.024134] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/competition_gai.py\n'}
+[2.024363] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/debug_gai.py\n'}
+[2.024601] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/robot_description_publisher.py\n'}
+[2.024825] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//worlds\n'}
+[2.025041] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//worlds/empty_world.world\n'}
+[2.025282] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//config\n'}
+[2.025536] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//config/control.yaml\n'}
+[2.025796] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition\n'}
+[2.026005] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena\n'}
+[2.026207] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/meshes\n'}
+[2.026412] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/meshes/check_point.STL\n'}
+[2.026679] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/meshes/track.STL\n'}
+[2.027109] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/meshes/base_link.STL\n'}
+[2.027437] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/model.config\n'}
+[2.027690] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/model.sdf\n'}
+[2.027987] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/worlds\n'}
+[2.028321] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/worlds/competition.world\n'}
+[2.028638] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/include/cars\n'}
+[2.028950] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/lib/cars/robot_description_publisher.py\n'}
+[2.029355] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/ament_index/resource_index/package_run_dependencies/cars\n'}
+[2.030524] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/ament_index/resource_index/parent_prefix_path/cars\n'}
+[2.030827] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/environment/ament_prefix_path.sh\n'}
+[2.031307] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/environment/ament_prefix_path.dsv\n'}
+[2.031621] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/environment/path.sh\n'}
+[2.032037] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/environment/path.dsv\n'}
+[2.032435] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/local_setup.bash\n'}
+[2.032777] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/local_setup.sh\n'}
+[2.033022] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/local_setup.zsh\n'}
+[2.033230] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/local_setup.dsv\n'}
+[2.033477] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/package.dsv\n'}
+[2.033749] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/ament_index/resource_index/packages/cars\n'}
+[2.034391] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/cmake/carsConfig.cmake\n'}
+[2.034674] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/cmake/carsConfig-version.cmake\n'}
+[2.034987] (cars) StdoutLine: {'line': b'-- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/package.xml\n'}
+[2.035426] (-) TimerEvent: {}
+[2.050651] (cars) CommandEnded: {'returncode': 0}
+[2.135987] (-) TimerEvent: {}
+[2.152625] (cars) JobEnded: {'identifier': 'cars', 'rc': 0}
+[2.154152] (-) EventReactorShutdown: {}

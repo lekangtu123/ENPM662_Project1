@@ -1,0 +1,6 @@
+Invoking command in '/home/leoo/testws/src/cars/build/cars': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/testws/src/cars -DCMAKE_INSTALL_PREFIX=/home/leoo/testws/src/cars/install/cars
+Invoked command in '/home/leoo/testws/src/cars/build/cars' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/testws/src/cars -DCMAKE_INSTALL_PREFIX=/home/leoo/testws/src/cars/install/cars
+Invoking command in '/home/leoo/testws/src/cars/build/cars': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/testws/src/cars/build/cars -- -j2 -l2
+Invoked command in '/home/leoo/testws/src/cars/build/cars' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/testws/src/cars/build/cars -- -j2 -l2
+Invoking command in '/home/leoo/testws/src/cars/build/cars': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/testws/src/cars/build/cars
+Invoked command in '/home/leoo/testws/src/cars/build/cars' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/testws/src/cars/build/cars

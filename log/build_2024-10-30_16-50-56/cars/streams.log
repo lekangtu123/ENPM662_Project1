@@ -1,0 +1,122 @@
+[0.015s] Invoking command in '/home/leoo/testws/src/cars/build/cars': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/testws/src/cars -DCMAKE_INSTALL_PREFIX=/home/leoo/testws/src/cars/install/cars
+[0.115s] -- The C compiler identification is GNU 9.4.0
+[0.165s] -- The CXX compiler identification is GNU 9.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.234s] -- Detecting C compiler ABI info - done
+[0.250s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.250s] -- Detecting C compile features
+[0.250s] -- Detecting C compile features - done
+[0.256s] -- Detecting CXX compiler ABI info
+[0.318s] -- Detecting CXX compiler ABI info - done
+[0.333s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.334s] -- Detecting CXX compile features
+[0.335s] -- Detecting CXX compile features - done
+[0.337s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.341s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.341s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.341s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.341s]   the cmake_policy command to set the policy and suppress this warning.
+[0.341s] 
+[0.341s] Call Stack (most recent call first):
+[0.341s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.341s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.341s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.341s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.341s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.341s]   CMakeLists.txt:31 (find_package)
+[0.341s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.341s] [0m
+[0.358s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.359s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.424s] -- Found robot_state_publisher: 2.5.3 (/opt/ros/galactic/share/robot_state_publisher/cmake)
+[0.453s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.459s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.540s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[0.570s] -- Found FastRTPS: /opt/ros/galactic/include
+[0.652s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.683s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[0.686s] -- Found Eigen3: TRUE (found version "3.3.7")
+[0.737s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.740s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.760s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.761s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.824s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.825s] -- Looking for pthread_create in pthreads
+[0.870s] -- Looking for pthread_create in pthreads - not found
+[0.870s] -- Looking for pthread_create in pthread
+[0.927s] -- Looking for pthread_create in pthread - found
+[0.928s] -- Found Threads: TRUE
+[1.574s] -- Found xacro: 2.0.7 (/opt/ros/galactic/share/xacro/cmake)
+[1.576s] -- Found ros2_control: 1.6.0 (/opt/ros/galactic/share/ros2_control/cmake)
+[1.577s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.647s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.652s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.652s] -- Configured cppcheck include dirs: 
+[1.652s] -- Configured cppcheck exclude dirs and/or files: 
+[1.658s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.658s] -- Configured cpplint exclude dirs and/or files: 
+[1.659s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.660s] -- Added test 'lint_cmake' to check CMake code style
+[1.662s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.667s] -- Added test 'uncrustify' to check C / C++ code style
+[1.667s] -- Configured uncrustify additional arguments: 
+[1.668s] -- Added test 'xmllint' to check XML markup files
+[1.670s] -- Configuring done (1.6s)
+[1.676s] -- Generating done (0.0s)
+[1.678s] -- Build files have been written to: /home/leoo/testws/src/cars/build/cars
+[1.705s] Invoked command in '/home/leoo/testws/src/cars/build/cars' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake /home/leoo/testws/src/cars -DCMAKE_INSTALL_PREFIX=/home/leoo/testws/src/cars/install/cars
+[1.710s] Invoking command in '/home/leoo/testws/src/cars/build/cars': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/testws/src/cars/build/cars -- -j2 -l2
+[1.804s] Invoked command in '/home/leoo/testws/src/cars/build/cars' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --build /home/leoo/testws/src/cars/build/cars -- -j2 -l2
+[1.955s] Invoking command in '/home/leoo/testws/src/cars/build/cars': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/testws/src/cars/build/cars
+[2.016s] -- Install configuration: ""
+[2.016s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//urdf
+[2.017s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//urdf/cars.csv
+[2.017s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//urdf/cars.urdf.xacro
+[2.017s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes
+[2.018s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/imu_link.STL
+[2.018s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/front_left_link.STL
+[2.019s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/front_right_link.STL
+[2.019s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/back_shaft_link.STL
+[2.020s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/lidar_link.STL
+[2.020s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/front_right_wheel_link.STL
+[2.021s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/front_left_wheel_Link.STL
+[2.021s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//meshes/base_link.STL
+[2.022s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch
+[2.022s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/gazebo.launch.py
+[2.023s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/spawn_robot_ros2.launch.py
+[2.023s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/display_gai.py
+[2.023s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/competition_gai.py
+[2.023s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/debug_gai.py
+[2.024s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//launch/robot_description_publisher.py
+[2.024s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//worlds
+[2.024s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//worlds/empty_world.world
+[2.024s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//config
+[2.025s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//config/control.yaml
+[2.025s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition
+[2.025s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena
+[2.025s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/meshes
+[2.025s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/meshes/check_point.STL
+[2.026s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/meshes/track.STL
+[2.026s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/meshes/base_link.STL
+[2.026s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/model.config
+[2.027s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/arena/model.sdf
+[2.027s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/worlds
+[2.027s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars//competition/worlds/competition.world
+[2.028s] -- Installing: /home/leoo/testws/src/cars/install/cars/include/cars
+[2.028s] -- Installing: /home/leoo/testws/src/cars/install/cars/lib/cars/robot_description_publisher.py
+[2.029s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/ament_index/resource_index/package_run_dependencies/cars
+[2.030s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/ament_index/resource_index/parent_prefix_path/cars
+[2.030s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/environment/ament_prefix_path.sh
+[2.030s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/environment/ament_prefix_path.dsv
+[2.031s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/environment/path.sh
+[2.031s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/environment/path.dsv
+[2.031s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/local_setup.bash
+[2.032s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/local_setup.sh
+[2.032s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/local_setup.zsh
+[2.032s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/local_setup.dsv
+[2.032s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/package.dsv
+[2.033s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/ament_index/resource_index/packages/cars
+[2.033s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/cmake/carsConfig.cmake
+[2.034s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/cmake/carsConfig-version.cmake
+[2.034s] -- Installing: /home/leoo/testws/src/cars/install/cars/share/cars/package.xml
+[2.050s] Invoked command in '/home/leoo/testws/src/cars/build/cars' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /home/leoo/.local/bin/cmake --install /home/leoo/testws/src/cars/build/cars
