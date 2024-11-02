@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="cars assemble">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-1.2906 0.042967 0.039104"
+        rpy="0 0 0" />
+      <mass
+        value="76.79" />
+      <inertia
+        ixx="2.2455"
+        ixy="0.00023712"
+        ixz="-0.16444"
+        iyy="4.7478"
+        iyz="-0.00013027"
+        izz="5.9615" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="front_left_link">
+    <inertial>
+      <origin
+        xyz="0.0101054563175425 0.0226182931833723 0.000188080520011333"
+        rpy="0 0 0" />
+      <mass
+        value="0.163573437446173" />
+      <inertia
+        ixx="0.000740682334483605"
+        ixy="0.00015346095886627"
+        ixz="3.10589797959443E-07"
+        iyy="9.46378565266336E-05"
+        iyz="-2.20832444207929E-06"
+        izz="0.000806338608995048" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/front_left_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/front_left_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_left_joint"
+    type="continuous">
+    <origin
+      xyz="-0.10171 -0.11351 -0.0005163"
+      rpy="1.5759 -0.00020786 -1.5298" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_left_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="front_left_wheel_Link">
+    <inertial>
+      <origin
+        xyz="-3.04773388742352E-05 9.72089512785157E-06 -0.0949363699740946"
+        rpy="0 0 0" />
+      <mass
+        value="1.97318465886728" />
+      <inertia
+        ixx="0.00661256233434863"
+        ixy="4.78195522683735E-10"
+        ixz="-1.45294480759574E-07"
+        iyy="0.0066125635922767"
+        iyz="4.63572318908979E-08"
+        izz="0.0107550717782981" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/front_left_wheel_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.92156862745098 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/front_left_wheel_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_left_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0.04295 -0.073241 0"
+      rpy="-1.5708 0.29618 1.5708" />
+    <parent
+      link="front_left_link" />
+    <child
+      link="front_left_wheel_Link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="front_right_link">
+    <inertial>
+      <origin
+        xyz="0.0101054563175426 0.0226182931833722 0.000188080520011374"
+        rpy="0 0 0" />
+      <mass
+        value="0.163573437446173" />
+      <inertia
+        ixx="0.000740682334483605"
+        ixy="0.00015346095886627"
+        ixz="3.10589797959131E-07"
+        iyy="9.46378565266337E-05"
+        iyz="-2.20832444207814E-06"
+        izz="0.000806338608995047" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/front_right_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/front_right_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_right_joint"
+    type="continuous">
+    <origin
+      xyz="-0.10171 0.19637 -0.0005163"
+      rpy="1.5657 0.00026013 1.6221" />
+    <parent
+      link="base_link" />
+    <child
+      link="front_right_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="front_right_wheel_link">
+    <inertial>
+      <origin
+        xyz="-3.0477342272385E-05 9.7208884349137E-06 -0.0990638772882194"
+        rpy="0 0 0" />
+      <mass
+        value="1.97318465870598" />
+      <inertia
+        ixx="0.00661256233411517"
+        ixy="4.78001958513034E-10"
+        ixz="-1.4529547132672E-07"
+        iyy="0.00661256359218702"
+        iyz="4.63569008046652E-08"
+        izz="0.0107550717781734" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/front_right_wheel_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.92156862745098 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/front_right_wheel_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="front_right_wheel_joint"
+    type="continuous">
+    <origin
+      xyz="0.038822 -0.073241 0"
+      rpy="-1.5708 0.95826 1.5708" />
+    <parent
+      link="front_right_link" />
+    <child
+      link="front_right_wheel_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="lidar_link">
+    <inertial>
+      <origin
+        xyz="9.44587351341744E-05 -0.025399018294254 -2.36146837834933E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.0386111099072293" />
+      <inertia
+        ixx="8.82242414813367E-06"
+        ixy="2.31594444351596E-08"
+        ixz="4.30632249560021E-11"
+        iyy="9.34156189411158E-06"
+        iyz="-5.78986110878115E-09"
+        izz="8.82258563522726E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/lidar_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/lidar_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="lidar_joint"
+    type="continuous">
+    <origin
+      xyz="0.063442 0.045234 0.13282"
+      rpy="-1.5718 0.0049842 2.951" />
+    <parent
+      link="base_link" />
+    <child
+      link="lidar_link" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="back_shaft_link">
+    <inertial>
+      <origin
+        xyz="0.00122523970046776 0.00211209276969357 0.0414268213944895"
+        rpy="0 0 0" />
+      <mass
+        value="4.17803597748373" />
+      <inertia
+        ixx="0.0172699429850423"
+        ixy="4.70060969315722E-12"
+        ixz="-6.17091651816874E-08"
+        iyy="0.0172699429709338"
+        iyz="2.03588191503181E-07"
+        izz="0.0215288263127668" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/back_shaft_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/back_shaft_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="back_shaft_joint"
+    type="continuous">
+    <origin
+      xyz="0.19441 0 -0.059473"
+      rpy="1.5708 -0.5266 3.1416" />
+    <parent
+      link="base_link" />
+    <child
+      link="back_shaft_link" />
+    <axis
+      xyz="0 0 1" />
+  </joint>
+  <link
+    name="track_Link">
+    <inertial>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <mass
+        value="0" />
+      <inertia
+        ixx="0"
+        ixy="0"
+        ixz="0"
+        iyy="0"
+        iyz="0"
+        izz="0" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/track_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://cars assemble/meshes/track_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="track_joint"
+    type="fixed">
+    <origin
+      xyz="-1.5243 0.042991 -0.096811"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="track_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+</robot>
